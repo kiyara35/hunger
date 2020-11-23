@@ -1,0 +1,274 @@
+@media (max-width: 1199px) {
+    .promo__title{
+        font-size: 83px;
+    }
+    .registration__photo img{
+        width: 415px;
+    }
+    .slick-prev{
+        font-size: 24px;
+        margin: -10px;
+    }
+    .slick-next{
+        font-size: 24px;
+        margin: -10px;}
+    .menu__item{
+        margin-bottom: 65px;
+    }
+    .contact{
+        padding: 100px 119px;
+    }
+    .menu__row{
+        flex-wrap: nowrap;
+    }
+    .menu__item{
+        margin-bottom: 65px;
+    }
+    .contact{
+        padding: 65px 172px;
+    }
+
+}
+@media (max-width: 991px) {
+    header{
+        padding: 44px 100px;
+    }
+    .header__nav{
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        top: 0;
+        left: -100%;
+        align-items: center;
+        height: 35vh;
+        padding: 20px 255px;
+        background-color: rgba(0,0,0,.6);
+        transition: .6s;
+        text-align: center;
+        z-index: 50;
+
+    }
+    .header__nav_active{
+        left: 0;
+        transition: .6s;
+    }
+    .header__link{
+        list-style-type: none;
+    }
+    .header__link a{
+        color: #E8C300;
+    }
+    .header__link:hover a{
+        color: #ffffff;
+    }
+
+    .header__logo{
+        display: none;
+    }
+    .header__list-one::after{
+        display: none;
+    }
+    .header__list-second::after{
+        display: none;
+    }
+    .promo{
+        min-height: 550px;
+    }
+
+    .promo__title{
+        font-size: 68px;
+        text-align: center;
+    }
+    .promo__link{
+        width: 50px;
+        height: 50px;
+    }
+    .promo__btn{
+        width: 190px;
+    }
+    .information{
+        padding: 0 66px;
+    }
+    .information__text{
+        padding: 0 72px;
+    }
+    .information__title{
+        font-size: 35px;
+    }
+    .information__subtitle{
+        font-size: 13px;
+    }
+    .information__descr{
+        font-size: 11px;
+    }
+    .registration{
+        padding: 0 205px;
+    }
+    .registration__photo{
+        display: none;
+    }
+    .team__headline{
+        font-size: 10px;
+        text-align: center;
+
+}
+    .carousel__slider{
+        padding: 0 237px;
+    }
+    .carousel__slider img{
+        position: unset;
+        height :496px;
+        width: 100%;
+    }
+    .carousel__text{
+position: unset;
+        width: 100%;
+        margin-top: -17px;
+
+    }
+    .carousel__title{
+        font-size: 35px;
+    }
+    .carousel__subtitle{
+        font-size: 13px;
+    }
+    .carousel__descr{
+        font-size: 11px;
+    }
+    .menu__item{
+        margin-bottom: 65px;
+    }
+    .menu__content{
+        font-size: 10px;
+    }
+    .menu__content span{
+        font-size: 16px;
+    }
+    .menu__subtitle{
+        font-size: 14px;
+    }
+    .contact{
+        padding: 0 59px;
+    }
+    .slick-prev{
+        font-size: 35px;
+    }
+    .slick-next{
+        font-size: 35px;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 31px;
+        width: 20px;
+        height: 10px;
+        top: 34px;
+        margin: auto;
+        position: fixed;
+        z-index: 50;
+    }
+    .hamburger span{
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: #989898;
+        margin-bottom: 2px;
+        transition: .5s all;
+
+    }
+    .hamburger_active :nth-child(1){
+        transform: rotate(-45deg);
+        margin-bottom: -2px;
+    }
+    .hamburger_active :nth-child(2){
+        display: none;
+        margin-bottom: -2px;
+    }
+    .hamburger_active :nth-child(3){
+        transform: rotate(45deg);
+        margin-bottom: -2px;
+
+    }
+    .information__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team{
+        margin-bottom: 0;
+    }
+    .team__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team__text{
+        margin-top: 0;
+        padding: 0 72px;
+    }
+    .registration__form{
+        justify-content: center;
+    }
+    .form__row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form__btn{
+        width: 280px;
+        margin-right: 10px;
+    }
+    .menu__links{
+        width: 720px;
+    }
+    .private__wrapper{
+        flex-wrap: nowrap;
+        display: block;
+        justify-content: center;
+    }
+    .contact{
+        padding: 65px 350px;
+
+    }
+    .contact__row{
+        display: block;
+    }
+    textarea{
+        width: 280px;
+    }
+    .contact__wrapper{
+        display: block;
+    }
+    .contact__information{
+        display: block;
+
+    }
+    .contact__btn{
+        width: 280px;
+    }
+    .private__wrapper{
+        padding: 0 70px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .menu__content span{
+        font-size: 17px;
+    }
+    .information__subtitle{
+        font-size: 10px;
+    }
+
+   
+}
+@media (max-width: 575px) {
+    .information__subtitle {
+        font-size: 11px;
+    }
+    .promo{
+        min-height: 476px;
+    }
+
+}
+
+
