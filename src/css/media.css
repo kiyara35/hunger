@@ -18,9 +18,7 @@
     .contact{
         padding: 100px 119px;
     }
-    .menu__row{
-        flex-wrap: nowrap;
-    }
+
     .menu__item{
         margin-bottom: 65px;
     }
@@ -34,6 +32,8 @@
         padding: 44px 100px;
     }
     .header__nav{
+        width: 100%;
+
         position: fixed;
         flex-direction: column;
         justify-content: center;
@@ -41,7 +41,7 @@
         left: -100%;
         align-items: center;
         height: 35vh;
-        padding: 20px 255px;
+        padding: 20px 214px;
         background-color: rgba(0,0,0,.6);
         transition: .6s;
         text-align: center;
@@ -49,6 +49,7 @@
 
     }
     .header__nav_active{
+        width: 100%;
         left: 0;
         transition: .6s;
     }
@@ -102,7 +103,7 @@
         font-size: 11px;
     }
     .registration{
-        padding: 0 205px;
+
     }
     .registration__photo{
         display: none;
@@ -145,7 +146,10 @@ position: unset;
         font-size: 16px;
     }
     .menu__subtitle{
-        font-size: 14px;
+        font-size: 11px;
+    }
+    .menu__block{
+        margin: 0 auto;
     }
     .contact{
         padding: 0 59px;
@@ -160,7 +164,7 @@ position: unset;
         display: block;
         position: absolute;
         right: 31px;
-        width: 20px;
+        width: 50px;
         height: 10px;
         top: 34px;
         margin: auto;
@@ -169,16 +173,16 @@ position: unset;
     }
     .hamburger span{
         display: block;
-        height: 2px;
+        height: 5px;
         width: 100%;
-        background: #989898;
-        margin-bottom: 2px;
+        background: #e8c300;
+        margin-bottom: 12px;
         transition: .5s all;
 
     }
     .hamburger_active :nth-child(1){
         transform: rotate(-45deg);
-        margin-bottom: -2px;
+        margin-bottom: -5px;
     }
     .hamburger_active :nth-child(2){
         display: none;
@@ -224,11 +228,9 @@ position: unset;
         justify-content: center;
     }
     .contact{
-        padding: 65px 350px;
 
     }
     .contact__row{
-        display: block;
     }
     textarea{
         width: 280px;
@@ -258,6 +260,10 @@ position: unset;
     .information__subtitle{
         font-size: 10px;
     }
+    .menu__block{
+        width: 100%;
+    }
+
 
    
 }

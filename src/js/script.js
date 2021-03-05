@@ -8,6 +8,7 @@ $(document).ready(function(){
             .addClass('menu__link_active').siblings().removeClass('menu__link_active')
             .closest('div.container').find('div.menu__content').removeClass('menu__content_active').eq($(this).index()).addClass('menu__content_active');
     });
+
     $('[data-modal=book]').on('click',function () {
         $('.overlay ,#book').fadeIn()
 
